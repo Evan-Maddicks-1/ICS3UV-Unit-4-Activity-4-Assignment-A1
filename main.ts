@@ -12,7 +12,7 @@ let guess = Number(prompt("Enter your guess: "));
 
 while (guess !== 0) {
   //Generate a random number between 1 and 10
-  let randomNumber = Math.floor(Math.random() * 10) + 1;
+  const randomNumber = Math.floor(Math.random() * 10) + 1;
 
   if (guess === randomNumber) {
     console.log("Congratulations! You guessed the correct number: " + guess);
